@@ -85,6 +85,7 @@ main > div > p {
 /* testimonial section */
 .testimonial {
   width: 60%;
+  height: 200px;
   margin: 0 auto;
 }
 
