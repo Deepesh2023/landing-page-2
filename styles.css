@@ -15,10 +15,31 @@ header > ul {
   display: flex;
 }
 
+/* hero styling */
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
 #hero-image {
   border: 2px solid black;
   width: 300px;
   height: 150px;
+}
+
+/* info section styling */
+.info-section > h2 {
+  text-align: center;
+}
+
+.info-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-section figure {
+  display: block;
+  text-align: center;
 }
 
 .info-image {
