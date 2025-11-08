@@ -23,8 +23,21 @@ header > ul {
 
 /* hero styling */
 main {
+  height: 240px;
+  width: 80%;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+
+main > div > h2 {
+  margin-bottom: 4px;
+}
+
+main > div > p {
+  margin-bottom: 16px;
 }
 
 #hero-image {
