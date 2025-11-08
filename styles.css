@@ -1,0 +1,18 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#hero-image {
+  border: 2px solid black;
+  width: 300px;
+  height: 150px;
+}
+
+.info-image {
+  border: 2px solid black;
+  width: 160px;
+  height: 160px;
+}
