@@ -85,6 +85,7 @@ h6 {
 main {
   display: flex;
   flex-wrap: wrap;
+  height: 400px;
 }
 
 /* mobile layout */
@@ -93,11 +94,13 @@ main {
     display: none;
   }
 
-  .hero {
-    width: 100%;
+  main {
+    height: 200px;
   }
 
+  .hero,
   .hero-image-container {
+    /* border: 2px solid red; */
     width: 100%;
   }
 }
@@ -106,13 +109,17 @@ main {
 
 /* desktop layout */
 @media only screen and (min-width: 800px) {
-  .hero {
-    border: 2px solid red;
+  .hero-image-container {
+    height: 160px;
+  }
+
+  .hero,
+  .hero-image-container {
+    /* border: 2px solid red; */
     width: 50%;
   }
 
-  .hero-image-container {
-    border: 2px solid red;
-    width: 50%;
-  }
+  /* .hero-image-container {
+    height: 200px;
+  } */
 }
