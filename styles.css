@@ -75,6 +75,13 @@ h6 {
   isolation: isolate;
 }
 
+/* global styles */
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
