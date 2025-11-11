@@ -5,31 +5,103 @@
   box-sizing: border-box;
 }
 
+/* mobile first */
 /* common styles */
-section {
+h1,
+h2,
+h3,
+figcaption,
+.testimonial > div > blockquote,
+.call-to-action-card,
+footer {
+  text-align: center;
+}
+
+main > div,
+.testimonial > div,
+.call-to-action-card {
+  padding: 24px;
+}
+
+/* header section */
+header {
+  height: 40px;
+}
+
+header > ul {
+  display: none;
+}
+
+/* main section */
+main {
+  height: 420px;
+}
+
+main > div:first-of-type {
+  /* height: 240px; */
+  text-align: center;
+}
+
+main > div:last-of-type {
+  height: 200px;
+  width: 300px;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+/* info section */
+.info-section figure {
+  height: 240px;
+  width: 70%;
+  padding: 4px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+.info-section h2,
+.info-section figure {
+  margin-bottom: 16px;
+}
+
+/* testimonial section */
+.testimonial {
+  height: 200px;
+}
+
+/* call to action section */
+.call-to-action-section {
+  height: 160px;
+}
+
+/* footer */
+footer {
+  height: 40px;
+}
+
+/* common styles */
+/* section {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /* header styling */
-header {
+/* header {
   width: 80%;
   height: 48px;
   padding: 8px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-}
+} */
 
-header > ul {
-  display: flex;
+/* header > ul {
   list-style: none;
   gap: 16px;
-}
+} */
 
 /* hero styling */
-main {
+/* main {
   height: 240px;
   width: 80%;
   margin: 0 auto;
@@ -51,10 +123,10 @@ main > div > p {
   border: 2px solid black;
   width: 300px;
   height: 150px;
-}
+} */
 
 /* info section styling */
-.info-section {
+/* .info-section {
   height: 360px;
 }
 
@@ -80,10 +152,10 @@ main > div > p {
   border: 2px solid black;
   width: 120px;
   height: 120px;
-}
+} */
 
 /* testimonial section */
-.testimonial {
+/* .testimonial {
   width: 60%;
   height: 200px;
   margin: 0 auto;
@@ -91,10 +163,10 @@ main > div > p {
 
 #testimonial-author {
   text-align: right;
-}
+} */
 
 /* call-to-action-section */
-.call-to-action-section {
+/* .call-to-action-section {
   height: 120px;
 }
 
@@ -102,10 +174,10 @@ main > div > p {
   width: 80%;
   display: flex;
   justify-content: space-around;
-}
+} */
 
 /* footer */
-footer {
+/* footer {
   text-align: center;
   height: 48px;
-}
+} */
