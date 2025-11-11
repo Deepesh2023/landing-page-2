@@ -85,17 +85,18 @@ h6 {
 main {
   display: flex;
   flex-wrap: wrap;
-  height: 400px;
+  justify-content: center;
+}
+
+.hero-image-container {
+  border: 2px solid red;
+  height: 160px;
 }
 
 /* mobile layout */
 @media only screen and (max-width: 400px) {
   header > ul {
     display: none;
-  }
-
-  main {
-    height: 200px;
   }
 
   .hero,
@@ -106,6 +107,13 @@ main {
 }
 
 /* tablet layout */
+@media only screen and (min-width: 401px) and (max-width: 799px) {
+  .hero,
+  .hero-image-container {
+    /* border: 2px solid red; */
+    width: 100%;
+  }
+}
 
 /* desktop layout */
 @media only screen and (min-width: 800px) {
