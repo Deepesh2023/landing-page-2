@@ -1,0 +1,10 @@
+/* mobile layout */
+@media only screen and (max-width: 400px) {
+  header > ul {
+    display: none;
+  }
+}
+
+/* tablet layout */
+
+/* desktop layout */
