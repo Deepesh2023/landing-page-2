@@ -98,7 +98,8 @@ footer {
 
 header,
 main,
-section {
+section,
+footer {
   margin-bottom: 36px;
 }
 
