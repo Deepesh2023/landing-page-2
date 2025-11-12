@@ -87,10 +87,6 @@ ul {
   max-width: 960px;
 }
 
-header {
-  height: 48px;
-}
-
 .header-links {
   display: none;
 }
@@ -100,11 +96,17 @@ footer {
   text-align: center;
 }
 
+header,
+main,
+section {
+  margin-bottom: 36px;
+}
+
 main {
-  height: 600px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .hero-image-container {
@@ -162,6 +164,7 @@ main {
   header {
     display: flex;
     justify-content: space-between;
+    height: 40px;
   }
 
   .header-links {
@@ -172,6 +175,11 @@ main {
   .footer-links {
     display: flex;
     justify-content: space-around;
+  }
+
+  main,
+  section {
+    margin-bottom: 0;
   }
 
   main {
