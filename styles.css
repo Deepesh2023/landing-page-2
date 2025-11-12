@@ -113,7 +113,11 @@ main {
 .testimonial > div {
   width: 80%;
   margin: 0 auto;
-  max-width: 600px;
+}
+
+.call-to-action-card {
+  display: block;
+  text-align: center;
 }
 
 /* mobile layout */
@@ -161,5 +165,12 @@ main {
   .info-images figure {
     width: 25%;
     max-width: 300px;
+  }
+
+  .call-to-action-card {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
   }
 }
