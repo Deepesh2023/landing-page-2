@@ -82,6 +82,10 @@ h6 {
   max-width: 960px;
 }
 
+h2 {
+  text-align: center;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -91,6 +95,19 @@ main {
 .hero-image-container {
   border: 2px solid red;
   height: 160px;
+}
+
+.info-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-images figure {
+  border: 2px solid red;
+  height: 240px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* mobile layout */
@@ -113,6 +130,10 @@ main {
     /* border: 2px solid red; */
     width: 100%;
   }
+
+  .info-images figure {
+    width: 50%;
+  }
 }
 
 /* desktop layout */
@@ -130,4 +151,9 @@ main {
   /* .hero-image-container {
     height: 200px;
   } */
+
+  .info-images figure {
+    width: 25%;
+    max-width: 300px;
+  }
 }
