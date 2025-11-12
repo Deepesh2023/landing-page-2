@@ -110,6 +110,12 @@ main {
   text-align: center;
 }
 
+.testimonial > div {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
 /* mobile layout */
 @media only screen and (max-width: 400px) {
   header > ul {
