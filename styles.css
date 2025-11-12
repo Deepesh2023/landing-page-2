@@ -188,9 +188,18 @@ main {
     width: 50%;
   }
 
+  .info-section {
+    height: 400px;
+  }
+
   .info-images figure {
     width: 25%;
     max-width: 300px;
+  }
+
+  .testimonial,
+  .call-to-action-section {
+    height: 160px;
   }
 
   .call-to-action-card {
@@ -199,5 +208,9 @@ main {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+  }
+
+  footer {
+    height: 80px;
   }
 }
