@@ -87,6 +87,10 @@ ul {
   max-width: 960px;
 }
 
+header {
+  height: 48px;
+}
+
 .header-links {
   display: none;
 }
@@ -97,6 +101,7 @@ footer {
 }
 
 main {
+  height: 600px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -169,6 +174,10 @@ main {
     justify-content: space-around;
   }
 
+  main {
+    height: 320px;
+  }
+
   .hero-image-container {
     height: 160px;
   }
@@ -185,6 +194,7 @@ main {
   }
 
   .call-to-action-card {
+    text-align: left;
     width: 90%;
     margin: 0 auto;
     display: flex;
