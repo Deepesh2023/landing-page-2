@@ -87,6 +87,10 @@ ul {
   max-width: 960px;
 }
 
+.header-links {
+  display: none;
+}
+
 h2,
 footer {
   text-align: center;
@@ -128,10 +132,6 @@ main {
 
 /* mobile layout */
 @media only screen and (max-width: 400px) {
-  header > ul {
-    display: none;
-  }
-
   .hero,
   .hero-image-container {
     /* border: 2px solid red; */
@@ -154,6 +154,21 @@ main {
 
 /* desktop layout */
 @media only screen and (min-width: 800px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-links {
+    gap: 16px;
+  }
+
+  .header-links,
+  .footer-links {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .hero-image-container {
     height: 160px;
   }
@@ -174,10 +189,5 @@ main {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-  }
-
-  .footer-links > ul {
-    display: flex;
-    justify-content: space-around;
   }
 }
