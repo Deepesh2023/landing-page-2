@@ -75,6 +75,11 @@ h6 {
   isolation: isolate;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 /* global styles */
 .container {
   width: 90%;
@@ -82,7 +87,8 @@ h6 {
   max-width: 960px;
 }
 
-h2 {
+h2,
+footer {
   text-align: center;
 }
 
@@ -158,10 +164,6 @@ main {
     width: 50%;
   }
 
-  /* .hero-image-container {
-    height: 200px;
-  } */
-
   .info-images figure {
     width: 25%;
     max-width: 300px;
@@ -172,5 +174,10 @@ main {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+  }
+
+  .footer-links > ul {
+    display: flex;
+    justify-content: space-around;
   }
 }
