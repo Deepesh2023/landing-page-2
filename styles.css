@@ -122,7 +122,7 @@ header,
 main,
 section,
 footer {
-  margin-bottom: 36px;
+  margin-bottom: 2.3em;
 }
 
 .hero-section {
@@ -130,23 +130,23 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 1em;
 }
 
 .hero-image-container {
   border: 2px solid red;
-  height: 160px;
+  height: 10em;
 }
 
 .info-images {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 1em;
 }
 
 .info-images figure {
   border: 2px solid red;
-  height: 240px;
+  height: 15em;
   width: 90%;
   margin: 0 auto;
   text-align: center;
@@ -187,11 +187,11 @@ footer {
   .page-header {
     display: flex;
     justify-content: space-between;
-    height: 40px;
+    height: 2.5em;
   }
 
   .header-links {
-    gap: 16px;
+    gap: 1em;
   }
 
   .header-links,
@@ -206,7 +206,7 @@ footer {
   }
 
   .hero-section {
-    height: 320px;
+    height: 20em;
   }
 
   .hero-image-container {
@@ -219,7 +219,7 @@ footer {
   }
 
   .info-section {
-    height: 400px;
+    height: 25em;
   }
 
   .info-images figure {
@@ -227,9 +227,8 @@ footer {
     max-width: 300px;
   }
 
-  .testimonial,
   .call-to-action-section {
-    height: 160px;
+    height: 10em;
   }
 
   .testimonial {
@@ -246,6 +245,6 @@ footer {
   }
 
   footer {
-    height: 80px;
+    height: 5em;
   }
 }
