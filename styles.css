@@ -144,7 +144,6 @@ footer {
 @media only screen and (max-width: 400px) {
   .hero,
   .hero-image-container {
-    /* border: 2px solid red; */
     width: 100%;
   }
 }
@@ -153,7 +152,6 @@ footer {
 @media only screen and (min-width: 401px) and (max-width: 799px) {
   .hero,
   .hero-image-container {
-    /* border: 2px solid red; */
     width: 100%;
   }
 
@@ -195,8 +193,6 @@ footer {
 
   .hero,
   .hero-image-container {
-    /* border: 2px solid red; */
-    /* width: 50%; */
     flex: 1;
   }
 
@@ -205,7 +201,6 @@ footer {
   }
 
   .info-images figure {
-    /* width: 25%; */
     flex: 1;
     max-width: 300px;
   }
@@ -213,6 +208,11 @@ footer {
   .testimonial,
   .call-to-action-section {
     height: 160px;
+  }
+
+  .testimonial {
+    width: 80%;
+    margin: 0 auto;
   }
 
   .call-to-action-card {
