@@ -122,7 +122,7 @@ header,
 main,
 section,
 footer {
-  margin-bottom: 2.3em;
+  padding-bottom: 3rem;
 }
 
 .hero-section {
@@ -187,7 +187,7 @@ footer {
   .page-header {
     display: flex;
     justify-content: space-between;
-    height: 2.5em;
+    /* height: 2.5em; */
   }
 
   .header-links {
@@ -206,7 +206,7 @@ footer {
   }
 
   .hero-section {
-    height: 20em;
+    /* height: 20em; */
   }
 
   .hero-image-container {
@@ -219,7 +219,7 @@ footer {
   }
 
   .info-section {
-    height: 25em;
+    /* height: 25em; */
   }
 
   .info-images figure {
@@ -228,7 +228,7 @@ footer {
   }
 
   .call-to-action-section {
-    height: 10em;
+    /* height: 10em; */
   }
 
   .testimonial {
@@ -245,6 +245,6 @@ footer {
   }
 
   footer {
-    height: 5em;
+    /* height: 5em; */
   }
 }
