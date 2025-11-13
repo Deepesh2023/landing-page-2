@@ -187,7 +187,6 @@ footer {
   .page-header {
     display: flex;
     justify-content: space-between;
-    /* height: 2.5em; */
   }
 
   .header-links {
@@ -205,10 +204,6 @@ footer {
     margin-bottom: 0;
   }
 
-  .hero-section {
-    /* height: 20em; */
-  }
-
   .hero-image-container {
     height: 160px;
   }
@@ -218,17 +213,9 @@ footer {
     flex: 1;
   }
 
-  .info-section {
-    /* height: 25em; */
-  }
-
   .info-images figure {
     flex: 1;
     max-width: 300px;
-  }
-
-  .call-to-action-section {
-    /* height: 10em; */
   }
 
   .testimonial {
@@ -242,9 +229,5 @@ footer {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-  }
-
-  footer {
-    /* height: 5em; */
   }
 }
