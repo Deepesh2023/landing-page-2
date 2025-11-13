@@ -128,6 +128,11 @@ footer {
   padding-bottom: 3rem;
 }
 
+button {
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+}
+
 .hero-section {
   display: flex;
   flex-wrap: wrap;
