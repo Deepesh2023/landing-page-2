@@ -135,8 +135,19 @@ footer {
   padding-bottom: 3rem;
 }
 
+header,
+main,
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
 button {
   padding: 0.5em 1.5em;
+  background-color: #3882f8;
+  color: #f9faf8;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-section {
@@ -148,7 +159,7 @@ button {
 }
 
 .hero-image-container {
-  border: 2px solid red;
+  border: 2px solid #f9faf8;
   height: 10em;
 }
 
@@ -164,6 +175,11 @@ button {
   width: 90%;
   margin: 0 auto;
   text-align: center;
+}
+
+.testimonial-section {
+  background-color: #e5e7eb;
+  color: #1f2937;
 }
 
 .testimonial > div {
