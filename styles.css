@@ -207,8 +207,7 @@ button {
     gap: 1em;
   }
 
-  .header-links,
-  .footer-links {
+  .links {
     display: flex;
     justify-content: space-around;
   }
