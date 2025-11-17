@@ -130,8 +130,8 @@ footer {
 
 main,
 section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 header,
@@ -141,11 +141,15 @@ footer {
   color: #f9faf8;
 }
 
+header,
+footer {
+  padding: 1em;
+}
+
 button {
   padding: 0.5em 1.5em;
   margin-top: 1em;
   border: none;
-  border-radius: 4px;
 }
 
 button,
@@ -191,9 +195,15 @@ button,
   margin: 0 auto;
 } */
 
+button,
+.call-to-action-card {
+  border-radius: 4px;
+}
+
 .call-to-action-card {
   display: block;
   text-align: center;
+  padding: 1em;
 }
 
 .call-to-action-card > button {
