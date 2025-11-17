@@ -128,10 +128,9 @@ footer {
   display: none;
 }
 
-header,
 main,
-section,
-footer {
+section {
+  padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
@@ -144,10 +143,15 @@ footer {
 
 button {
   padding: 0.5em 1.5em;
-  background-color: #3882f8;
-  color: #f9faf8;
+  margin-top: 1em;
   border: none;
   border-radius: 4px;
+}
+
+button,
+.call-to-action-card {
+  background-color: #3882f8;
+  color: #f9faf8;
 }
 
 .hero-section {
@@ -182,14 +186,18 @@ button {
   color: #1f2937;
 }
 
-.testimonial > div {
+/* .testimonial > div {
   width: 80%;
   margin: 0 auto;
-}
+} */
 
 .call-to-action-card {
   display: block;
   text-align: center;
+}
+
+.call-to-action-card > button {
+  border: 2px solid #f9faf8;
 }
 
 /* mobile layout */
