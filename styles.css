@@ -228,6 +228,7 @@ button,
 
 .call-to-action-card {
   display: block;
+  padding: 1em clamp(2em, 10%, 6em);
 }
 
 footer ul {
