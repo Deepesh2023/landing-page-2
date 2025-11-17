@@ -154,6 +154,10 @@ footer p {
   color: #1f2937;
 }
 
+.info-images img {
+  border: 4px solid #3882f6;
+}
+
 .testimonial-section {
   background-color: #e5e7eb;
 }
@@ -214,11 +218,16 @@ button {
 }
 
 .info-images figure {
-  border: 2px solid red;
-  height: 15em;
+  /* height: 15em; */
   width: 90%;
   margin: 0 auto;
   text-align: center;
+}
+
+.info-images > figure > img {
+  height: 200px;
+  width: 100%;
+  border-radius: 8px;
 }
 
 button,
