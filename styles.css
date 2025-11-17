@@ -118,7 +118,8 @@ blockquote {
 .hero,
 h2,
 .testimonial,
-footer {
+footer,
+.call-to-action-card {
   text-align: center;
 }
 
@@ -227,8 +228,6 @@ button,
 
 .call-to-action-card {
   display: block;
-  text-align: center;
-  padding: 1em;
 }
 
 footer ul {
