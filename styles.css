@@ -167,6 +167,7 @@ button,
   background-color: #3882f6;
 }
 
+.hero-image-container,
 .call-to-action-card button {
   border: 2px solid #f9faf7;
 }
